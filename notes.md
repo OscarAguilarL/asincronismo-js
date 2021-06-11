@@ -25,3 +25,7 @@ La propiedad readyState retorna el estado en el que está la petición XMLHttp. 
 |4 | DONE | The operation is complete.|
 
 > Un standard de los callbacks dentro de node que el primero valor del callback es el error y el segundo es la información que se desencadena.
+
+## Promesas
+
+Vienen del objeto Promise, es algo que va a suceder pero no se sabe cuando, puede ser ahora, en el futuro o nunca.
