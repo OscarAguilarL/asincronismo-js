@@ -29,3 +29,19 @@ La propiedad readyState retorna el estado en el que está la petición XMLHttp. 
 ## Promesas
 
 Vienen del objeto Promise, es algo que va a suceder pero no se sabe cuando, puede ser ahora, en el futuro o nunca.
+
+¿Para qué nos sirve xhttp.status === 200?
+
+* Comprobar que el estado de la petición xhttps es igual a 200
+
+¿Cual es el método recomendando por la comunidad para manejar asincronismo en JavaScript?
+
+* async/await
+
+¿Para qué utilizamos `JSON.parse(xhttp.responseText)`?
+
+* convertir una respuesta en texto a un objeto inmutable
+
+¿La recomendación de la comunidad para anidar callbacks es?
+
+* usar un maximo de 3 callbacks
